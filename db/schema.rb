@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2019_05_23_225104) do
   create_table "entries", force: :cascade do |t|
     t.string "description"
     t.string "date_and_time"
-    t.integer "length_in_minutes"
+    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
