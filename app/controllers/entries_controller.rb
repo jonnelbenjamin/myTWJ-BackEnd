@@ -4,7 +4,7 @@ class EntriesController < ApplicationController
     end
 
     def create
-        Entry.create(strong_params)
+       @entry = Entry.create(strong_params)
     end
 
     def show
