@@ -8,7 +8,7 @@
 
 User.create(first_name:'Jonnel', last_name:'Benjamin', email:'jonnel.benjamin@gmail.com', password_digest:'jonnel')
 
-Entry.create(description: 'foaifoair', date_and_time: '05-13-2019 ', user_id: 1)
-Entry.create(description: 'dear diary, i want this app built', date_and_time: '04-13-2019 ', user_id: 1)
-Entry.create(description: 'jesus loves you', date_and_time: '05-16-2019 ', user_id: 1)
-Entry.create(description: 'when you walk into the room', date_and_time: '03-13-2019 ', user_id: 1)
+Entry.create(description: 'foaifoair', date_and_time: '5-13-2019 ', user_id: 1)
+Entry.create(description: 'dear diary, i want this app built', date_and_time: '4-13-2019 ', user_id: 1)
+Entry.create(description: 'jesus loves you', date_and_time: '5-16-2019 ', user_id: 1)
+Entry.create(description: 'when you walk into the room', date_and_time: '3-13-2019 ', user_id: 1)
