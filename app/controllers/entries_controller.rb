@@ -8,6 +8,7 @@ class EntriesController < ApplicationController
     end
 
     def show
+        render json: Entry.find(params[:id])
     end
 
     def update
@@ -15,6 +16,7 @@ class EntriesController < ApplicationController
     end
 
     def destroy
+        render json: Entry.find(params[:id]).destroy
     end
 
     private
