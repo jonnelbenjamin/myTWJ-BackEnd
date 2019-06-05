@@ -3,12 +3,12 @@ class AuthController < ApplicationController
         byebug
         @user = User.find_by(email: params[:user][:email])
         if @user && @user.authenticate(params[:user][:password])
+            byebug
           render json: {
             message: "correct email and password",
             user_info: @user,
             error: false,
             token: encode({user_id: @user.id})
-    
             }, status: :accepted
     
         else
